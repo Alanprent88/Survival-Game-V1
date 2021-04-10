@@ -1,0 +1,804 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 32644 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/OneDrive/Survival game/Survival Game V1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63017
+Successfully changed project path to: C:/Users/User/OneDrive/Survival game/Survival Game V1
+C:/Users/User/OneDrive/Survival game/Survival Game V1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/OneDrive/Survival game/Survival Game V1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 with Max-Q Design (ID=0x1ed0)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   27.21.14.5763
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003880 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2773 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 172.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3247.
+Total: 2.577200 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.156200 ms MarkObjects: 1.969400 ms  DeleteObjects: 0.122700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/Baddie/zombie turn 1.fbx
+  artifactKey: Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie turn 1.fbx using Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78fbb1365ede4ed8a014548d6b72ed4') in 0.089506 seconds
+  Import took 0.095843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.583545 seconds.
+  path: Assets/Animations/Baddie/walking (2) 1.fbx
+  artifactKey: Guid(a6a96db90650c6f4ab2e2514dffe65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/walking (2) 1.fbx using Guid(a6a96db90650c6f4ab2e2514dffe65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cb0e17616d19e72fc3e211be0c441d') in 0.004773 seconds
+  Import took 0.011094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.890764 seconds.
+  path: Assets/Animations/Goodie/New Animator Controller.controller
+  artifactKey: Guid(c2b7ea7c05a42964bbe18ede0978af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Goodie/New Animator Controller.controller using Guid(c2b7ea7c05a42964bbe18ede0978af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8aa2175d6e97463003561aae13be72') in 0.016759 seconds
+  Import took 0.022260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.802714 seconds.
+  path: Assets/Animations/Goodie/Player Animator.controller
+  artifactKey: Guid(c2b7ea7c05a42964bbe18ede0978af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Goodie/Player Animator.controller using Guid(c2b7ea7c05a42964bbe18ede0978af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735d803985792cc62f9ffcfec27945ff') in 0.008288 seconds
+  Import took 0.014152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.838605 seconds.
+  path: Assets/Animations/Baddie/zombie turn.fbx
+  artifactKey: Guid(000dd0d948988da46820819a59451153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie turn.fbx using Guid(000dd0d948988da46820819a59451153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94af7d9393bd272f6b0bcb3a12ee90d') in 0.005280 seconds
+  Import took 0.011117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.451299 seconds.
+  path: Assets/Animations/Baddie/Enemy Animator.controller
+  artifactKey: Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Enemy Animator.controller using Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29d5b4d4e577cb4cc4a1f01d22cc476') in 0.002938 seconds
+  Import took 0.008845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.569975 seconds.
+  path: Assets/Animations/Baddie/Bulb face baddie.fbx
+  artifactKey: Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Bulb face baddie.fbx using Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988edce6c72a9001b877481bb8811a81') in 0.285161 seconds
+  Import took 0.292400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.433478 seconds.
+  path: Assets/Animations/Baddie/Bulb face baddie.fbx
+  artifactKey: Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Bulb face baddie.fbx using Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7156cdd91a1e8eeb302830802aa88b1a') in 0.077463 seconds
+  Import took 0.084474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.435714 seconds.
+  path: Assets/Animations/Baddie/walking (2) 1.fbx
+  artifactKey: Guid(a6a96db90650c6f4ab2e2514dffe65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/walking (2) 1.fbx using Guid(a6a96db90650c6f4ab2e2514dffe65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79192757b377c9e7bb4c36331c271dc5') in 0.004830 seconds
+  Import took 0.012129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.344480 seconds.
+  path: Assets/Animations/Baddie/walking (2).fbx
+  artifactKey: Guid(1e0d3c6319fe8b84b91d19548d9008eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/walking (2).fbx using Guid(1e0d3c6319fe8b84b91d19548d9008eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ab50cf92147454432c484702bff63d') in 0.006593 seconds
+  Import took 0.015608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.194265 seconds.
+  path: Assets/Animations/Baddie/walking (2).fbx
+  artifactKey: Guid(1e0d3c6319fe8b84b91d19548d9008eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/walking (2).fbx using Guid(1e0d3c6319fe8b84b91d19548d9008eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5f783bd9a783e46cad7a9dab357edd') in 0.004706 seconds
+  Import took 0.008893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.467128 seconds.
+  path: Assets/Animations/Baddie/walking.fbx
+  artifactKey: Guid(3659e6df33978a64ab219dc9cff3a220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/walking.fbx using Guid(3659e6df33978a64ab219dc9cff3a220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5403f56844670b8af2a3485414cf65e1') in 0.004898 seconds
+  Import took 0.009170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679758 seconds.
+  path: Assets/Animations/Baddie/walking 1.fbx
+  artifactKey: Guid(04fd572f1a6a74144acc801b223ad348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/walking 1.fbx using Guid(04fd572f1a6a74144acc801b223ad348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63ec2d26cff3891041abbe8ef66946f') in 0.005678 seconds
+  Import took 0.009964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.530250 seconds.
+  path: Assets/Animations/Baddie/zombie attack 1.fbx
+  artifactKey: Guid(17c7e9295eac26249818bb402378a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie attack 1.fbx using Guid(17c7e9295eac26249818bb402378a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd975ba1447faed1c79713faea5e23563') in 0.005578 seconds
+  Import took 0.010500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962282 seconds.
+  path: Assets/Animations/Baddie/zombie agonizing.fbx
+  artifactKey: Guid(921bed44838263b42b0a832631835bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie agonizing.fbx using Guid(921bed44838263b42b0a832631835bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5d2987e7d9cd2bc5a66ea34f772dc4') in 0.007130 seconds
+  Import took 0.012113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.445481 seconds.
+  path: Assets/Animations/Baddie/zombie agonizing 1.fbx
+  artifactKey: Guid(a17a0cacf73aa424fb41059c8239e577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie agonizing 1.fbx using Guid(a17a0cacf73aa424fb41059c8239e577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80031ba5f4d58f309f26d3c64547e0f0') in 0.005830 seconds
+  Import took 0.010772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.573875 seconds.
+  path: Assets/Animations/Baddie/zombie reaction hit 1.fbx
+  artifactKey: Guid(4a0cd0c13394b1149987aba10003860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie reaction hit 1.fbx using Guid(4a0cd0c13394b1149987aba10003860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113d0570be913d4c844808f7ea70f1f4') in 0.005100 seconds
+  Import took 0.011478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.901603 seconds.
+  path: Assets/Animations/Baddie/zombie running 1.fbx
+  artifactKey: Guid(af2e075a60ded314294f45260fc1e74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie running 1.fbx using Guid(af2e075a60ded314294f45260fc1e74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5832bdf8098bef80335f67e9190f26') in 0.005763 seconds
+  Import took 0.011044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.853146 seconds.
+  path: Assets/Animations/Baddie/zombie running.fbx
+  artifactKey: Guid(7e8828827540b764e9bea7ef22f4b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie running.fbx using Guid(7e8828827540b764e9bea7ef22f4b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa55a570b9dec600c30616d087be732d') in 0.004881 seconds
+  Import took 0.009621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 610.235750 seconds.
+  path: Assets/Animations/Baddie/zombie turn 1.fbx
+  artifactKey: Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie turn 1.fbx using Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b289d316aa32f9d9889c26eb4bd7786') in 0.005594 seconds
+  Import took 0.011548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.439325 seconds.
+  path: Assets/Animations/Baddie/zombie turn 1.fbx
+  artifactKey: Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie turn 1.fbx using Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b03d63142a29869f6de843f95754f61') in 0.005070 seconds
+  Import took 0.009643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001472 seconds.
+  path: Assets/Animations/Baddie/zombie turn 1.fbx
+  artifactKey: Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie turn 1.fbx using Guid(0d634a1dd88e8e848b936d87da9d5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b03d63142a29869f6de843f95754f61') in 0.005044 seconds
+  Import took 0.009378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1265.165329 seconds.
+  path: Assets/Animations/Baddie/Enemy Animator.controller
+  artifactKey: Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Enemy Animator.controller using Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e2e265664444429c5619a04e0dda67') in 0.005597 seconds
+  Import took 0.011560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7305.671773 seconds.
+  path: Assets/Animations/Baddie/zombie transition 1.fbx
+  artifactKey: Guid(d2e41b02a35e49d4ea9c98195dba94b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie transition 1.fbx using Guid(d2e41b02a35e49d4ea9c98195dba94b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3825db9259f61b086aeb4b82be06e66') in 0.007240 seconds
+  Import took 0.012782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Animations/Baddie/zombie transition 1.fbx
+  artifactKey: Guid(d2e41b02a35e49d4ea9c98195dba94b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie transition 1.fbx using Guid(d2e41b02a35e49d4ea9c98195dba94b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3825db9259f61b086aeb4b82be06e66') in 0.008510 seconds
+  Import took 0.014834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.863616 seconds.
+  path: Assets/Animations/Baddie/zombie punching (2) 1.fbx
+  artifactKey: Guid(0fbadfb1ffe9a914d9456f1d243f2d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie punching (2) 1.fbx using Guid(0fbadfb1ffe9a914d9456f1d243f2d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9649ef120409ee3652e3f81e65d173c') in 0.005536 seconds
+  Import took 0.011086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.225905 seconds.
+  path: Assets/Animations/Baddie/zombie punching (2).fbx
+  artifactKey: Guid(6146c084dff60184dae62f8f1af2db02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie punching (2).fbx using Guid(6146c084dff60184dae62f8f1af2db02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458d968f400526bca92f86ddcc71d7b6') in 0.007058 seconds
+  Import took 0.012356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.962877 seconds.
+  path: Assets/Animations/Baddie/zombie kicking 1.fbx
+  artifactKey: Guid(8f2ed8d2b7a3c6d44bf688bf2e3b074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie kicking 1.fbx using Guid(8f2ed8d2b7a3c6d44bf688bf2e3b074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d8150d290bf3c6159fc6fedd43d5e8') in 0.005128 seconds
+  Import took 0.010771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.540328 seconds.
+  path: Assets/Animations/Baddie/zombie reaction hit (2).fbx
+  artifactKey: Guid(228842ee4e0f17a4dad711aa85589ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie reaction hit (2).fbx using Guid(228842ee4e0f17a4dad711aa85589ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e9fb70bbb5292e995cc66e1f2217f3') in 0.006215 seconds
+  Import took 0.012131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.342205 seconds.
+  path: Assets/Animations/Baddie/zombie kicking (2) 1.fbx
+  artifactKey: Guid(24f8dbe494fd4f946b21b7e59d1ab820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie kicking (2) 1.fbx using Guid(24f8dbe494fd4f946b21b7e59d1ab820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451b1a7f2e578a1fabcb0c5b9dc687d6') in 0.005602 seconds
+  Import took 0.010584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11479.822870 seconds.
+  path: Assets/Animations/Baddie/Enemy Animator.controller
+  artifactKey: Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Enemy Animator.controller using Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b5d82f4ade1e463d3768310406829') in 0.009200 seconds
+  Import took 0.018905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002335 seconds.
+  path: Assets/Animations/Baddie/Enemy Animator.controller
+  artifactKey: Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Enemy Animator.controller using Guid(63e78565627f23644a9bff64e85164b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b5d82f4ade1e463d3768310406829') in 0.008711 seconds
+  Import took 0.016938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.318347 seconds.
+  path: Assets/Animations/Baddie/zombie stand up (2).fbx
+  artifactKey: Guid(3bc639ddf10f81544994de9e5dc28fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stand up (2).fbx using Guid(3bc639ddf10f81544994de9e5dc28fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2189471d0e516fdde5149508d6730d6e') in 0.005921 seconds
+  Import took 0.010893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002129 seconds.
+  path: Assets/Animations/Baddie/zombie stand up (2).fbx
+  artifactKey: Guid(3bc639ddf10f81544994de9e5dc28fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stand up (2).fbx using Guid(3bc639ddf10f81544994de9e5dc28fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2189471d0e516fdde5149508d6730d6e') in 0.007301 seconds
+  Import took 0.012180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.535480 seconds.
+  path: Assets/Animations/Baddie/zombie attack.fbx
+  artifactKey: Guid(7035ecc54b3e9224798d1d7caebff9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie attack.fbx using Guid(7035ecc54b3e9224798d1d7caebff9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63596599266b4423412c74120012feb1') in 0.006895 seconds
+  Import took 0.015807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.617683 seconds.
+  path: Assets/Animations/Baddie/zombie headbutt 1.fbx
+  artifactKey: Guid(d9fa926ed9dcfc747bf50089b1afa4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie headbutt 1.fbx using Guid(d9fa926ed9dcfc747bf50089b1afa4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0833b662fdd1aeed606d1b579ea365') in 0.006872 seconds
+  Import took 0.012573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.566185 seconds.
+  path: Assets/Animations/Baddie/zombie headbutt.fbx
+  artifactKey: Guid(5fffbc31397e6be4a90534c91e9701f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie headbutt.fbx using Guid(5fffbc31397e6be4a90534c91e9701f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7b5a1bea7859cb2cd246d686b65851') in 0.005347 seconds
+  Import took 0.010843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.399908 seconds.
+  path: Assets/Animations/Baddie/zombie idle (2) 1.fbx
+  artifactKey: Guid(8e944021de5e3984d80b1238d1f81a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle (2) 1.fbx using Guid(8e944021de5e3984d80b1238d1f81a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458e108f3cff1eb7b97123b1ff59efb1') in 0.005725 seconds
+  Import took 0.011222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 436.037756 seconds.
+  path: Assets/Animations/Baddie/Bulb face baddie@Flying Back Death.fbx
+  artifactKey: Guid(568287cc447ea6f4bb8917c859e50414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Bulb face baddie@Flying Back Death.fbx using Guid(568287cc447ea6f4bb8917c859e50414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf8d759e290a16ea3e9f63c80c70192') in 0.006346 seconds
+  Import took 0.011791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.832499 seconds.
+  path: Assets/Animations/Baddie/zombie idle (2).fbx
+  artifactKey: Guid(890a4fe15db2478428a7914997f548db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle (2).fbx using Guid(890a4fe15db2478428a7914997f548db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df68b98d9117d55e5e1bdcd5097168fa') in 0.005615 seconds
+  Import took 0.011936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.340651 seconds.
+  path: Assets/Animations/Baddie/zombie idle (3) 1.fbx
+  artifactKey: Guid(883a66ff77f27c74e95cb39bfceb5e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle (3) 1.fbx using Guid(883a66ff77f27c74e95cb39bfceb5e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59be98135fd96f82d588d4bc8d4dddee') in 0.006718 seconds
+  Import took 0.011571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249661 seconds.
+  path: Assets/Animations/Baddie/zombie idle (3).fbx
+  artifactKey: Guid(4e258d1257e4ac14abaa8c083e45d432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle (3).fbx using Guid(4e258d1257e4ac14abaa8c083e45d432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c58a897aaa3c5470140018dc9531080') in 0.005411 seconds
+  Import took 0.010477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.216617 seconds.
+  path: Assets/Animations/Baddie/zombie idle (4) 1.fbx
+  artifactKey: Guid(37d54e63b51cf684d85478e399647039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle (4) 1.fbx using Guid(37d54e63b51cf684d85478e399647039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc26edf1df816fc10d019beb28164d6') in 0.006405 seconds
+  Import took 0.012716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.235657 seconds.
+  path: Assets/Animations/Baddie/zombie idle (4).fbx
+  artifactKey: Guid(b7e97b77982456141b7f63e09a98f148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle (4).fbx using Guid(b7e97b77982456141b7f63e09a98f148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5322020e04e3e783e71ac9acd692f7be') in 0.006073 seconds
+  Import took 0.011569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201543 seconds.
+  path: Assets/Animations/Baddie/zombie idle 1.fbx
+  artifactKey: Guid(4f8929e418e6b0e4d9a779e6163074e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle 1.fbx using Guid(4f8929e418e6b0e4d9a779e6163074e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49edae3b12398b2621c0d024ba29695b') in 0.005578 seconds
+  Import took 0.010599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233334 seconds.
+  path: Assets/Animations/Baddie/zombie idle.fbx
+  artifactKey: Guid(d1e679d3491128f4fa164fb289cc49b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie idle.fbx using Guid(d1e679d3491128f4fa164fb289cc49b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74628a1027f1541d04a3e34d507f6c8') in 0.005382 seconds
+  Import took 0.011368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.805397 seconds.
+  path: Assets/Animations/Baddie/zombie kicking (2).fbx
+  artifactKey: Guid(216de2993fc72f2449565abbcf316a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie kicking (2).fbx using Guid(216de2993fc72f2449565abbcf316a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb5e4ce9843b25bf424ad39f00de63b') in 0.006183 seconds
+  Import took 0.011828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.868541 seconds.
+  path: Assets/Animations/Baddie/zombie kicking.fbx
+  artifactKey: Guid(cd4b3d929a444b1419df0b726161a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie kicking.fbx using Guid(cd4b3d929a444b1419df0b726161a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd03ca17bf92193eb42975b000954482') in 0.006047 seconds
+  Import took 0.011233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.657845 seconds.
+  path: Assets/Animations/Baddie/zombie punching 1.fbx
+  artifactKey: Guid(d17cb68c2ea18044da7a95bc612e4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie punching 1.fbx using Guid(d17cb68c2ea18044da7a95bc612e4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9cb7afd44444eebd5c786b8c0b9460') in 0.005019 seconds
+  Import took 0.009700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213433 seconds.
+  path: Assets/Animations/Baddie/zombie punching.fbx
+  artifactKey: Guid(1fddd2c172ef1364ea3cc91ff7a81f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie punching.fbx using Guid(1fddd2c172ef1364ea3cc91ff7a81f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5c51d1b129652472601a6682e3b544') in 0.005354 seconds
+  Import took 0.011885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196457 seconds.
+  path: Assets/Animations/Baddie/zombie reaction hit (2) 1.fbx
+  artifactKey: Guid(4fd0b0783344bd941bda003c677ad0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie reaction hit (2) 1.fbx using Guid(4fd0b0783344bd941bda003c677ad0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928039317cf90c419dfee2e6a35a893d') in 0.006432 seconds
+  Import took 0.011959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.894057 seconds.
+  path: Assets/Animations/Baddie/zombie reaction hit.fbx
+  artifactKey: Guid(ce95f1a2b27dbf64c87e65d9a19de1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie reaction hit.fbx using Guid(ce95f1a2b27dbf64c87e65d9a19de1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5f6cf24631482592182ec010727f7c') in 0.006066 seconds
+  Import took 0.010666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3258.888103 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) BlendTree "Blend Tree" in state "Movement" in Controller "Player Animator" uses parameter "Blend" which does not exist.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 975]
+
+ -> (artifact id: 'f4d53197fcaa442c5af983cf37c41cf6') in 0.060341 seconds
+  Import took 0.067990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.645625 seconds.
+  path: Assets/Prefabs/Player/Main Goodie painted.fbx
+  artifactKey: Guid(da030ec3fb907a54d8daa625057a8a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Main Goodie painted.fbx using Guid(da030ec3fb907a54d8daa625057a8a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8f904b97905730dd391ab933e2cc75') in 0.057870 seconds
+  Import took 0.062647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.125350 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) BlendTree "Blend Tree" in state "Movement" in Controller "Player Animator" uses parameter "Blend" which does not exist.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 975]
+
+ -> (artifact id: '4e1a69ad8d730425f76b232b93d1fecd') in 0.036965 seconds
+  Import took 0.042000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.302271 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) BlendTree "Blend Tree" in state "Movement" in Controller "Player Animator" uses parameter "Blend" which does not exist.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 975]
+
+ -> (artifact id: 'b03a4da716942d3f345f14c0c1696bb3') in 0.034055 seconds
+  Import took 0.039892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.240261 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) BlendTree "Blend Tree" in state "Movement" in Controller "Player Animator" uses parameter "Blend" which does not exist.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 975]
+
+ -> (artifact id: 'df4ca96587365debdf325eabf54aa133') in 0.032230 seconds
+  Import took 0.037393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.071670 seconds.
+  path: Assets/Prefabs/Enemy/WeakEnemy.prefab
+  artifactKey: Guid(f17ea7df8eac61047a42eed29fb02e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy/WeakEnemy.prefab using Guid(f17ea7df8eac61047a42eed29fb02e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0614bcdd616e9488655fc6f1cf2fca9f') in 0.034133 seconds
+  Import took 0.039430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.206525 seconds.
+  path: Assets/Materials/Player/Default Material1_Flattened_Diffuse 1.tif
+  artifactKey: Guid(0d14d5a99e412294d9bbdc5f4bd5fb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Default Material1_Flattened_Diffuse 1.tif using Guid(0d14d5a99e412294d9bbdc5f4bd5fb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f871df653c062f7d26628cea99f506a') in 0.026078 seconds
+  Import took 0.031301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001452 seconds.
+  path: Assets/Materials/Player/Default Material1_Flattened_Diffuse 1.tif
+  artifactKey: Guid(0d14d5a99e412294d9bbdc5f4bd5fb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Default Material1_Flattened_Diffuse 1.tif using Guid(0d14d5a99e412294d9bbdc5f4bd5fb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f871df653c062f7d26628cea99f506a') in 0.009048 seconds
+  Import took 0.015979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 778.767454 seconds.
+  path: Assets/Prefabs/Player/Main Goodie painted 1.fbx
+  artifactKey: Guid(8cdea834f026db4479531f89559ca11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Main Goodie painted 1.fbx using Guid(8cdea834f026db4479531f89559ca11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb98f579eb3f899e4e9849a7105045d7') in 0.041586 seconds
+  Import took 0.047653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(5b248915757bf904c9ea2c50d5dce44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) BlendTree "Blend Tree" in state "Movement" in Controller "Player Animator" uses parameter "Blend" which does not exist.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 975]
+
+ -> (artifact id: '04e83ed75cfdaa70f9f4f998d31b3926') in 0.028363 seconds
+  Import took 0.032927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.193349 seconds.
+  path: Assets/Prefabs/Enemy/WeakEnemy.prefab
+  artifactKey: Guid(f17ea7df8eac61047a42eed29fb02e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy/WeakEnemy.prefab using Guid(f17ea7df8eac61047a42eed29fb02e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) BlendTree "Blend Tree" in state "Movement" in Controller "Player Animator" uses parameter "Blend" which does not exist.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 975]
+
+ -> (artifact id: '36fc3d1d16543d9355dabd351a91c2fa') in 0.044214 seconds
+  Import took 0.050134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.178825 seconds.
+  path: Assets/Prefabs/Enemy/WeakEnemy.prefab
+  artifactKey: Guid(f17ea7df8eac61047a42eed29fb02e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy/WeakEnemy.prefab using Guid(f17ea7df8eac61047a42eed29fb02e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab218772cbf65cc147c04864393269d4') in 0.030697 seconds
+  Import took 0.036462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.824496 seconds.
+  path: Assets/Animations/Baddie/Bulb face baddie.fbx
+  artifactKey: Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Bulb face baddie.fbx using Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e0161d3dad7207fe6dd20eb2b8618a') in 0.046850 seconds
+  Import took 0.053327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Animations/Baddie/zombie scratch idle 1.fbx
+  artifactKey: Guid(66ba7fdf0e147a64ba6356beb2e7cf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie scratch idle 1.fbx using Guid(66ba7fdf0e147a64ba6356beb2e7cf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a32dc9186f1254464fdcf600e5019e') in 0.005612 seconds
+  Import took 0.010771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.993294 seconds.
+  path: Assets/Animations/Baddie/zombie scratch idle.fbx
+  artifactKey: Guid(e58f9b905c3f02e4ba3c9fd0ec5629ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie scratch idle.fbx using Guid(e58f9b905c3f02e4ba3c9fd0ec5629ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caab3ae98361e693b844ac29aadb53a') in 0.004952 seconds
+  Import took 0.009518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Animations/Baddie/zombie stand up (3) 1.fbx
+  artifactKey: Guid(6e9b2aab62204224cbaf054211c499d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stand up (3) 1.fbx using Guid(6e9b2aab62204224cbaf054211c499d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23d745f02e1b237162b9c89dfaf0830') in 0.006379 seconds
+  Import took 0.011225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Animations/Baddie/zombie stand up 1.fbx
+  artifactKey: Guid(052a66dcbb39d3a4ab6cbe963f92a26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stand up 1.fbx using Guid(052a66dcbb39d3a4ab6cbe963f92a26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dc9695e750a113fc10f71edbb042a8') in 0.008507 seconds
+  Import took 0.015090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Animations/Baddie/zombie stand up.fbx
+  artifactKey: Guid(00791f90a64035a4ab8d7fc9d1b98ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stand up.fbx using Guid(00791f90a64035a4ab8d7fc9d1b98ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c874fae626d5eb1dc9e68a78377a86') in 0.005424 seconds
+  Import took 0.010158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Animations/Baddie/zombie stumbling 1.fbx
+  artifactKey: Guid(73e516e1995743648a3efb8577e544c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stumbling 1.fbx using Guid(73e516e1995743648a3efb8577e544c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b30f5987dc78e323f08601bcaae9903') in 0.005504 seconds
+  Import took 0.009841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Animations/Baddie/zombie stand up (3).fbx
+  artifactKey: Guid(aa9ec601081c17e4381b0a9f46ad699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stand up (3).fbx using Guid(aa9ec601081c17e4381b0a9f46ad699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495b01d1911ccd63403f878b72ce3229') in 0.005925 seconds
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Animations/Baddie/zombie stand up (2) 1.fbx
+  artifactKey: Guid(8e1b06ed28d08434fbe1259ec9da002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stand up (2) 1.fbx using Guid(8e1b06ed28d08434fbe1259ec9da002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfce4a94f3a1deae416f81ef3971ed7') in 0.005585 seconds
+  Import took 0.010733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Baddie/zombie stumbling.fbx
+  artifactKey: Guid(d55fa677f777cef4a9c75b2ea93903e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie stumbling.fbx using Guid(d55fa677f777cef4a9c75b2ea93903e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ee7e8e3362f9bae91ab3403196f2f3') in 0.005933 seconds
+  Import took 0.010705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038855 seconds.
+  path: Assets/Animations/Baddie/zombie transition (2) 1.fbx
+  artifactKey: Guid(075afd25c3381334dafca06b753d9a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie transition (2) 1.fbx using Guid(075afd25c3381334dafca06b753d9a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1b20907a4122d9b0eb3b8b9b47182a') in 0.005321 seconds
+  Import took 0.009864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Animations/Baddie/zombie transition (2).fbx
+  artifactKey: Guid(7bb5479914816554ba87a9e8e0bd1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie transition (2).fbx using Guid(7bb5479914816554ba87a9e8e0bd1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea2433e54e1a4f3cf04ee0ea10e10b8') in 0.005640 seconds
+  Import took 0.010266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Animations/Baddie/zombie turn.fbx
+  artifactKey: Guid(000dd0d948988da46820819a59451153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie turn.fbx using Guid(000dd0d948988da46820819a59451153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b09c3b7aba353ee1803399484c0cf26') in 0.005057 seconds
+  Import took 0.009039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Animations/Baddie/zombie transition.fbx
+  artifactKey: Guid(55d415a9f2021904dbacb91f28ed7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/zombie transition.fbx using Guid(55d415a9f2021904dbacb91f28ed7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc2ed537534fe4f7fda0afaa50f4773') in 0.005488 seconds
+  Import took 0.009686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 760.461989 seconds.
+  path: Assets/Animations/Baddie/Bulb face baddie@Casting Spell.fbx
+  artifactKey: Guid(ca4e12c6bf72c5642856946809df15ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Bulb face baddie@Casting Spell.fbx using Guid(ca4e12c6bf72c5642856946809df15ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350d2ce52c2e5c12fe888a325228c4dc') in 0.006821 seconds
+  Import took 0.012808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005965 seconds.
+  path: Assets/Animations/Baddie/Bulb face baddie.fbx
+  artifactKey: Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Baddie/Bulb face baddie.fbx using Guid(07a0af5b53e29454785c3dddc1ff3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c56a37f785121a2619bcd299772a5f9') in 0.040425 seconds
+  Import took 0.046509 seconds .
+
