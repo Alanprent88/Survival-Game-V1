@@ -42,10 +42,19 @@ public class EnemyAI : MonoBehaviour
     [Header("Damage Effects")]
     public float flashSpeed = 5.0f;             //how quickly we switch between colours
     public Color flashColour = new Color(0.0f, 0.0f, 0.0f, 1.0f);            //the colour when we are hit
-    public Color unDamagedColour = new Color(0.0f, 0.0f, 0.0f, 1.0f);       //our normal colour
+   // public Color unDamagedColour = new Color(0.0f, 0.0f, 0.0f, 1.0f);       //our normal colour
     bool isDead = false;                                                    //the flag to se if they are dead
     bool beenDamaged = false;                                               //has the enemy been hit
     Renderer render;                            //a reference to the renderer
+
+    //Animator
+    Transform cam;
+    Vector3 camForward;
+    Vector3 move;
+    Vector3 moveInput;
+    float forwardAmount;
+    float turnAmount;
+    Animator anim;
 
 
 
@@ -71,11 +80,30 @@ public class EnemyAI : MonoBehaviour
 
         //gets a reference to the enemy renderer
         render = gameObject.GetComponentInChildren<Renderer>();
+
+        anim = GetComponent<Animator>();
+
+        anim.SetBool("isGrounded", true);
     }
 
     // Update is called once per frame
     void Update()
     {
+        cam = Camera.main.transform;
+
+        float aiForward = nav.velocity.x;
+        float aiRight = nav.velocity.z;
+
+        camForward = Vector3.Scale(cam.up, new Vector3(1, 0, 1)).normalized;
+        move = (aiForward * Vector3.forward) + (aiRight * Vector3.right);
+
+        if (move.magnitude > 1)
+        {
+            move.Normalize();
+        }
+
+        Move(move);
+
         // call playerCheck
         PlayerCheck();
 
@@ -99,9 +127,33 @@ public class EnemyAI : MonoBehaviour
         {
             //if the player isn't dead check this information
             PlayerInRange();
-            DamageColourChange();
+           // DamageColourChange();
         }
         
+    }
+
+    void Move(Vector3 move)
+    {
+        if (move.magnitude > 1)
+        {
+            move.Normalize();
+        }
+        this.moveInput = move;
+
+        ConvertMoveInput();
+        Animating();
+    }
+    void ConvertMoveInput()
+    {
+        Vector3 localMove = transform.InverseTransformDirection(moveInput);
+
+        turnAmount = localMove.x;
+        forwardAmount = localMove.z;
+    }
+    void Animating()
+    {
+        anim.SetFloat("Forward", forwardAmount, 0.1f, Time.deltaTime);
+        anim.SetFloat("Turn", turnAmount, 0.0f, Time.deltaTime);
     }
     void OnTriggerEnter(Collider other)
     {
@@ -156,7 +208,7 @@ public class EnemyAI : MonoBehaviour
         }
     }
     //changes the player's colour when hit
-    void DamageColourChange()
+  /*  void DamageColourChange()
     {
         if (beenDamaged)
         {
@@ -172,12 +224,15 @@ public class EnemyAI : MonoBehaviour
         //resets the damage flag
         beenDamaged = false;
     }
+  */
 
     //everytime take damage is called we will also need to send an amount
     public void TakeDamage(int damageAmount)
     {
         //has been attacked or hit by hazard
         beenDamaged = true;
+
+        anim.SetTrigger("gotHit");
 
         //lowers the player's health by the amount of damage
         enemyHealth -= damageAmount;
@@ -222,11 +277,14 @@ public class EnemyAI : MonoBehaviour
         nav.speed = 0.0f;
         attackTimer = 0.0f;
 
+       
+
         int attackType = Random.Range(0, 3);
 
         if (attackType == 0)
         {
             meleeAttackpoint.SetActive(true);
+            anim.SetTrigger("MeleeAttack");
         }
         else
         {
@@ -234,6 +292,8 @@ public class EnemyAI : MonoBehaviour
             //spawns the bullet game object
             GameObject bulletClone = Instantiate(bullet, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
             bulletClone.GetComponent<Rigidbody>().AddForce(transform.forward * bulletSpeed);
+
+            anim.SetTrigger("ShootAttack");
         }
 
 
@@ -285,7 +345,9 @@ public class EnemyAI : MonoBehaviour
 
         enemyCounter.UpdateEnemyCounter();
 
-        Destroy(gameObject, 0.1f);
+        anim.SetBool("isDead", true);
+
+        Destroy(gameObject, 1.0f);
     }
     void Win()
     {

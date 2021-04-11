@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 5039729105544912876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.12, y: 0.11, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3341, y: 1.3341, z: 1.3341}
   m_Children:
   - {fileID: 7682942268683904867}
   - {fileID: 2751161643824868009}
@@ -120,8 +120,7 @@ MonoBehaviour:
   bullet: {fileID: 1966353822775668892, guid: 4fcb160f203891b4dae2473977229a32, type: 3}
   bulletSpawnPoint: {fileID: 2751161643824868009}
   flashSpeed: 5
-  flashColour: {r: 1, g: 0.957023, b: 0.957023, a: 1}
-  unDamagedColour: {r: 0.19998898, g: 0.99215686, b: 0.12549017, a: 1}
+  flashColour: {r: 0.8584906, g: 0.1898758, b: 0.1898758, a: 1}
 --- !u!135 &1885025042912808711
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -144,13 +143,19 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5039729105544912876}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 07a0af5b53e29454785c3dddc1ff3af4, type: 3}
   m_Controller: {fileID: 9100000, guid: 63e78565627f23644a9bff64e85164b8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
+    'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
+    'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tTransform
+    'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:LeftHandMiddle1'\n\tand more
+    ...\n\tFrom animation clip 'Flying Back Death'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -384,6 +389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bulb face baddie
       objectReference: {fileID: 0}
+    - target: {fileID: 4164731887927726934, guid: 605844644c8d19f438ac0354d3d74b90, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2572a118c5e7342409cd50ff1fa4fd2e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 605844644c8d19f438ac0354d3d74b90, type: 3}
 --- !u!4 &5900032975145958799 stripped

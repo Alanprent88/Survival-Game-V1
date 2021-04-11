@@ -13,13 +13,8 @@ public class PlayerController : MonoBehaviour
     Renderer render;                            //a reference to the renderer
     public bool canAttack = true;               //stops player from attacking
 
-   //ADDED
-   //Code
-    [Header("Added Code")]
-    //public CharacterController controller;
-    public float turnSmoothTime = 0.1f;
-    float turSmoothVelocity;
-    public Transform cam;
+   
+     public Transform cam;
 
     public float rotationSpeed;
     private float y;
@@ -68,7 +63,7 @@ public class PlayerController : MonoBehaviour
     public int maxBullets;                      //if this reaches zero we cant shoot
 
     //Animator
-    Transform camAnim;
+   
     Vector3 camForward;
     Vector3 move;
     Vector3 moveInput;
@@ -97,10 +92,21 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        camAnim = Camera.main.transform;
+        cam = Camera.main.transform;
 
         //Checks if we are on the floor layer
         isGrounded = Physics.OverlapSphere(feetPosition.position, groundRadiusSize, floorLayer).Length > 0;
+
+        if(isGrounded)
+        {
+            anim.SetLayerWeight(1, 0.65f);
+        }
+        else
+        {
+            anim.SetLayerWeight(1, 0.0f);
+        }
+
+        anim.SetBool("isGrounded", isGrounded);
 
         /*
         //Gets the user Raw input and stores them in a float every frame
@@ -125,9 +131,10 @@ public class PlayerController : MonoBehaviour
         //Animation
         if(cam != null)
         {
-            camForward = Vector3.Scale(camAnim.up, new Vector3(1, 0, 1)).normalized;
+            camForward = Vector3.Scale(cam.up, new Vector3(1, 0, 1)).normalized;
             move = (floatX * Vector3.forward) + (floatY * Vector3.right);
         }
+
         if (move.magnitude > 1)
         {
             move.Normalize();
@@ -198,12 +205,15 @@ public class PlayerController : MonoBehaviour
 
     void Animating()
     {
-        anim.SetFloat("Forward", forwardAmount, 0.1f, Time.deltaTime);
-        anim.SetFloat("Turn", turnAmount,0.0f, Time.deltaTime);
+        anim.SetFloat("Forward", forwardAmount, 0.1f , Time.deltaTime);
+
+        anim.SetFloat("Turn", turnAmount, 0.1f , Time.deltaTime);
     }
 
     void MeleeAttack()
     {
+        anim.SetTrigger("MeleeAttack");
+
         meleeAttackPoint.SetActive(true);
         canMeleeAttack = false;
 
@@ -228,6 +238,8 @@ public class PlayerController : MonoBehaviour
         attackCounter += 1;
         maxBullets -= 1;
 
+        anim.SetTrigger("ShootAttack");
+
         //spawns the bullet game object
         GameObject bulletClone = Instantiate(bullet, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
         bulletClone.GetComponent<Rigidbody>().AddForce(transform.forward * bulletSpeed);
@@ -246,7 +258,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Movement(float h, float v)
+    public void Movement(float h, float v)
     {
         //Sets the players values to MovementDir Vector3
         movementDir.Set(h, 0, v);
@@ -357,6 +369,8 @@ public class PlayerController : MonoBehaviour
         //has been attacked or hit by hazard
         beenDamaged = true;
 
+        anim.SetTrigger("gotHit");
+
         //lowers the player's health by the amount of damage
         playerHealth -= damageAmount;
 
@@ -377,7 +391,7 @@ public class PlayerController : MonoBehaviour
         //sets the flag for death to trigger all death related events
         isDead = true;
 
-        Debug.Log("Player has died!");
+        anim.SetBool("isDead",isDead);
     }
 
 }
